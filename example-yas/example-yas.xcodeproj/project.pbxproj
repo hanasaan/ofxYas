@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00737511EC5E9403ECFB0BD0 /* type_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = type_traits.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/type_traits/type_traits.hpp; sourceTree = SOURCE_ROOT; };
+		00C9A19601940C362D26391D /* unordered_set.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_set.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/unordered_set.hpp; sourceTree = SOURCE_ROOT; };
+		0247F1A0F59E9AB2427D2719 /* endian_conv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = endian_conv.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/io/endian_conv.hpp; sourceTree = SOURCE_ROOT; };
+		02DD3D1DA76D0A3498AA0D1E /* equal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = equal.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/equal.hpp; sourceTree = SOURCE_ROOT; };
+		03EC438BDCACA094B4F85791 /* unordered_map.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_map.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/unordered_map.hpp; sourceTree = SOURCE_ROOT; };
+		0471BA3DC5DBAAE1704DEF2A /* autoarray.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = autoarray.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/utility/autoarray.hpp; sourceTree = SOURCE_ROOT; };
+		04AD9682771882A1942AC80E /* buffers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = buffers.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/buffers.hpp; sourceTree = SOURCE_ROOT; };
+		051440EE5CDE36843677706C /* has_function_serialize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = has_function_serialize.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/type_traits/has_function_serialize.hpp; sourceTree = SOURCE_ROOT; };
+		05C30F5E1784B04370541DCF /* unordered_set.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_set.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/unordered_set.hpp; sourceTree = SOURCE_ROOT; };
+		05EEEC91A60527562253DC95 /* rep_for_impl_msvc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rep_for_impl_msvc.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/rep_for_impl_msvc.hpp; sourceTree = SOURCE_ROOT; };
+		078E081E1530FE416468504E /* fusion_list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fusion_list.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/fusion_list.hpp; sourceTree = SOURCE_ROOT; };
+		087E5412652D6A2C864B7CC3 /* wstring.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = wstring.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/wstring.hpp; sourceTree = SOURCE_ROOT; };
+		08BDE76D570ECF7CF3FB262B /* container_vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_vector.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_vector.hpp; sourceTree = SOURCE_ROOT; };
+		096A6430B3FC0ABF562301DD /* rep_for_impl_edg.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rep_for_impl_edg.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/rep_for_impl_edg.hpp; sourceTree = SOURCE_ROOT; };
+		09B6D18D7EE0FA4F9E71C10D /* limit.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = limit.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/limit.hpp; sourceTree = SOURCE_ROOT; };
+		0C3D63C881D8D5DB2A503BF0 /* seq_for_each_i.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = seq_for_each_i.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/seq_for_each_i.hpp; sourceTree = SOURCE_ROOT; };
+		0C6C84210E1175B61E63022C /* version.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = version.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/version.hpp; sourceTree = SOURCE_ROOT; };
+		0C9312282184317925C2E776 /* serialization_exception.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = serialization_exception.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/io/serialization_exception.hpp; sourceTree = SOURCE_ROOT; };
+		0D39BAE7E461FBD8050D3FEC /* std_streams.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = std_streams.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/std_streams.hpp; sourceTree = SOURCE_ROOT; };
+		0EFC28B7971A47DE8B200EA0 /* unordered_map.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_map.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/unordered_map.hpp; sourceTree = SOURCE_ROOT; };
+		0FAC50B8FBDEC4679ED73822 /* save_load_string.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = save_load_string.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/save_load_string.hpp; sourceTree = SOURCE_ROOT; };
+		10F165F2E1AA57EAD3311C19 /* array.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = array.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/array.hpp; sourceTree = SOURCE_ROOT; };
+		14629C08450ED6A74BE9F961 /* header.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = header.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/io/header.hpp; sourceTree = SOURCE_ROOT; };
+		14B07C781647623CC611EFB6 /* std_types.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = std_types.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/std_types.hpp; sourceTree = SOURCE_ROOT; };
+		18F6D1482B977509A4C19359 /* expr_iif.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = expr_iif.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/expr_iif.hpp; sourceTree = SOURCE_ROOT; };
+		1C056FB1731931AFB7059DC9 /* repeat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = repeat.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/repeat.hpp; sourceTree = SOURCE_ROOT; };
+		1CA05C2322CC82CC8B32F123 /* fusion_map.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fusion_map.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/fusion_map.hpp; sourceTree = SOURCE_ROOT; };
+		21152F4B0BF70BC406974BF9 /* bool.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = bool.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/bool.hpp; sourceTree = SOURCE_ROOT; };
+		26FA6A5390D0516D4FBEBC22 /* not_equal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = not_equal.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/not_equal.hpp; sourceTree = SOURCE_ROOT; };
+		2767055F43C619BED72BA2DD /* array.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = array.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/concepts/array.hpp; sourceTree = SOURCE_ROOT; };
+		2BBF9C83035465BCFF95348F /* fusion_pair.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fusion_pair.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/fusion_pair.hpp; sourceTree = SOURCE_ROOT; };
+		2E132A9CFA83AB0951621328 /* variadic_size.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = variadic_size.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/variadic_size.hpp; sourceTree = SOURCE_ROOT; };
+		2F6097567983561270955E4B /* enum_params.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = enum_params.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/enum_params.hpp; sourceTree = SOURCE_ROOT; };
+		32CED628FC7CA6146B00B542 /* map.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = map.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/map.hpp; sourceTree = SOURCE_ROOT; };
+		340E3DBC5A85F4593B2621A3 /* container_multiset.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_multiset.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_multiset.hpp; sourceTree = SOURCE_ROOT; };
+		374980CBA23E515F8FBEE880 /* container_list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_list.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_list.hpp; sourceTree = SOURCE_ROOT; };
+		37ADEB8774787E0392FEB4DD /* stringize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stringize.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/stringize.hpp; sourceTree = SOURCE_ROOT; };
+		3978ABF275BBC63EC4A174DC /* json_iarchive.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = json_iarchive.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/json_iarchive.hpp; sourceTree = SOURCE_ROOT; };
+		3E79B335390A3E770AA897BF /* fusion_tuple.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fusion_tuple.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/fusion_tuple.hpp; sourceTree = SOURCE_ROOT; };
+		406E57C47670EC4323231D2F /* multimap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = multimap.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/multimap.hpp; sourceTree = SOURCE_ROOT; };
+		451B4FF581858A20E31240A0 /* chrono.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = chrono.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/chrono.hpp; sourceTree = SOURCE_ROOT; };
+		463408E2BE59F7F3DEB7EA0A /* noncopyable.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = noncopyable.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/noncopyable.hpp; sourceTree = SOURCE_ROOT; };
+		463F98879F6C6BB77CA1698A /* rep_for_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rep_for_impl.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/rep_for_impl.hpp; sourceTree = SOURCE_ROOT; };
+		48019BF42BFB1A5AC1A5A538 /* set.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = set.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/concepts/set.hpp; sourceTree = SOURCE_ROOT; };
+		489CDE93D3A019C6E28DF901 /* json_oarchive.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = json_oarchive.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/json_oarchive.hpp; sourceTree = SOURCE_ROOT; };
+		4908C0E480D1DB33A463577E /* variant_element_switch.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = variant_element_switch.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/variant_element_switch.hpp; sourceTree = SOURCE_ROOT; };
+		49C92FACAC3A146C8627E6AE /* base_object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = base_object.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/tools/base_object.hpp; sourceTree = SOURCE_ROOT; };
+		4A2C8E971EE5AD299324D51B /* deque.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = deque.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/deque.hpp; sourceTree = SOURCE_ROOT; };
+		4F9332EADD36425807A49041 /* defaul_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = defaul_traits.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/defaul_traits.hpp; sourceTree = SOURCE_ROOT; };
+		52869C9CC23BEF91E9370982 /* binary_iarchive.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = binary_iarchive.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/binary_iarchive.hpp; sourceTree = SOURCE_ROOT; };
+		53FFAA3CD34144413A1C93F2 /* clang.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = clang.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/config/compiler/clang.hpp; sourceTree = SOURCE_ROOT; };
+		5487CFD9E57BBCCAEB3B6E23 /* buffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = buffer.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/utility/buffer.hpp; sourceTree = SOURCE_ROOT; };
+		56ABAFFA345C2D3AF95B7586 /* const_sized_array.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = const_sized_array.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/concepts/const_sized_array.hpp; sourceTree = SOURCE_ROOT; };
+		589648110DBB73CB1173B64B /* keyval.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = keyval.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/concepts/keyval.hpp; sourceTree = SOURCE_ROOT; };
+		59556C2CCD0B9520102C7DBA /* chrono.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = chrono.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/chrono.hpp; sourceTree = SOURCE_ROOT; };
+		59AB24D0E014C70864C4E82E /* container_slist.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_slist.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_slist.hpp; sourceTree = SOURCE_ROOT; };
+		59B78744422575B045C6F5D1 /* bitset.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = bitset.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/bitset.hpp; sourceTree = SOURCE_ROOT; };
+		59EEF25CC43E7EFCDDAD5009 /* container_flat_multiset.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_flat_multiset.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_flat_multiset.hpp; sourceTree = SOURCE_ROOT; };
+		5A33BB9D2B7AEF7C0E66A978 /* forward_list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = forward_list.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/concepts/forward_list.hpp; sourceTree = SOURCE_ROOT; };
+		60F3DC44FF201C684FBEE1F4 /* object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = object.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/object.hpp; sourceTree = SOURCE_ROOT; };
+		619D58A250B43B2990C8BFE9 /* if.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = if.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/if.hpp; sourceTree = SOURCE_ROOT; };
+		62F08EDFC113D1EC16561DC4 /* msvc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = msvc.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/config/compiler/msvc.hpp; sourceTree = SOURCE_ROOT; };
+		63A48ED51BF92E458A011163 /* bitand.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = bitand.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/bitand.hpp; sourceTree = SOURCE_ROOT; };
+		63F2BB051213A0C5D20EC47A /* inc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = inc.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/inc.hpp; sourceTree = SOURCE_ROOT; };
+		64C82275EB343251E7367520 /* pair.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pair.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/pair.hpp; sourceTree = SOURCE_ROOT; };
+		6609AF4FF7D175F127C55DE7 /* overload.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = overload.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/overload.hpp; sourceTree = SOURCE_ROOT; };
+		66B64F40F72AAC49841B10B9 /* variadic_elem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = variadic_elem.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/variadic_elem.hpp; sourceTree = SOURCE_ROOT; };
+		66ECDB93C67AE3D9CED091CC /* object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = object.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/utility/object.hpp; sourceTree = SOURCE_ROOT; };
+		6B2894B90E5B705BD02C1B10 /* container_flat_map.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_flat_map.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_flat_map.hpp; sourceTree = SOURCE_ROOT; };
+		6B6A01D6DCED8735230E45EE /* rep_for_impl_dmc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rep_for_impl_dmc.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/rep_for_impl_dmc.hpp; sourceTree = SOURCE_ROOT; };
+		6BFED91088D9B7BFB341041D /* variant.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = variant.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/variant.hpp; sourceTree = SOURCE_ROOT; };
+		6C9742DBA54D59D3A8272879 /* value.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = value.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/utility/value.hpp; sourceTree = SOURCE_ROOT; };
+		6CD48737CF6837BE0DF71C2F /* fnv1a.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fnv1a.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/fnv1a.hpp; sourceTree = SOURCE_ROOT; };
+		6E2D2763E20BFEDEEB45EA5E /* expr_if.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = expr_if.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/expr_if.hpp; sourceTree = SOURCE_ROOT; };
+		74228A76DD84F284A37AB14A /* config.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = config.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/config/config.hpp; sourceTree = SOURCE_ROOT; };
+		752709EB75DA6EA911FC5B87 /* set.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = set.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/set.hpp; sourceTree = SOURCE_ROOT; };
+		75BA44027E8BCA04733473A8 /* utf8conv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = utf8conv.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/utf8conv.hpp; sourceTree = SOURCE_ROOT; };
+		77AD031E2A16184EB50F5219 /* container_multimap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_multimap.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_multimap.hpp; sourceTree = SOURCE_ROOT; };
+		7A0AB32175E56F1509698046 /* tuple_to_seq.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple_to_seq.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/tuple_to_seq.hpp; sourceTree = SOURCE_ROOT; };
+		7B6E65A3ED2F5DF597CBC743 /* unordered_multimap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_multimap.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/unordered_multimap.hpp; sourceTree = SOURCE_ROOT; };
+		7DEDD91C74FC307407F1845D /* text_streams.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = text_streams.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/io/text_streams.hpp; sourceTree = SOURCE_ROOT; };
+		7E0067BE81A12B7A4304ED4F /* endian.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = endian.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/config/endian.hpp; sourceTree = SOURCE_ROOT; };
+		7E27022B4C9264BA1C2990DB /* io_exceptions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = io_exceptions.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/io/io_exceptions.hpp; sourceTree = SOURCE_ROOT; };
+		85AB18DABEBE1611D8B3F817 /* hexdumper.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = hexdumper.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/tools/hexdumper.hpp; sourceTree = SOURCE_ROOT; };
+		870ACE5C473AD8548739B6C0 /* container_set.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_set.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_set.hpp; sourceTree = SOURCE_ROOT; };
+		8969ABF0C015ACCCBBC7FCA9 /* preprocessor.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = preprocessor.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/preprocessor.hpp; sourceTree = SOURCE_ROOT; };
+		8CA5D1FD925A434FB328C83C /* container_static_vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_static_vector.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_static_vector.hpp; sourceTree = SOURCE_ROOT; };
+		8E5D083EAC6714B97D286CE7 /* binary_streams.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = binary_streams.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/io/binary_streams.hpp; sourceTree = SOURCE_ROOT; };
+		91535CB1F11E502C7CFFA63E /* text_iarchive.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = text_iarchive.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/text_iarchive.hpp; sourceTree = SOURCE_ROOT; };
+		935201E2A65B297E86457026 /* mem_streams.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mem_streams.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/mem_streams.hpp; sourceTree = SOURCE_ROOT; };
+		9362DD7F8E785ACF1036EDFE /* json_streams.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = json_streams.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/io/json_streams.hpp; sourceTree = SOURCE_ROOT; };
+		93EF70D81F4191CC1C445E27 /* dec.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dec.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/dec.hpp; sourceTree = SOURCE_ROOT; };
+		972D49DEEE7ED3ACBC4DAF53 /* std_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = std_traits.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/std_traits.hpp; sourceTree = SOURCE_ROOT; };
+		978A9C2566DEB483CEE5D33C /* cast.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cast.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/cast.hpp; sourceTree = SOURCE_ROOT; };
+		998CA6C9FA36F7EB3BE0394E /* enum.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = enum.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/utility/enum.hpp; sourceTree = SOURCE_ROOT; };
+		9AF73EE6F82B6E56D2430B2B /* auto_rec.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = auto_rec.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/auto_rec.hpp; sourceTree = SOURCE_ROOT; };
+		9B3C57D6C205F59F5AA6EBA9 /* typeinfo.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = typeinfo.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/type_traits/typeinfo.hpp; sourceTree = SOURCE_ROOT; };
+		A17D8D9F82CF96375B7DE35E /* has_method_serialize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = has_method_serialize.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/type_traits/has_method_serialize.hpp; sourceTree = SOURCE_ROOT; };
+		A271C8C82F4A5749B8150A1C /* optional.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = optional.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/optional.hpp; sourceTree = SOURCE_ROOT; };
+		A402C232F881BE13FC8781F4 /* cat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cat.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/cat.hpp; sourceTree = SOURCE_ROOT; };
+		A634B4CF748B981B5DCEF8C4 /* comma.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = comma.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/comma.hpp; sourceTree = SOURCE_ROOT; };
+		A6653BB77407F5E920DA5FA9 /* tuple_element_switch.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple_element_switch.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/tuple_element_switch.hpp; sourceTree = SOURCE_ROOT; };
+		A68C313BFA51E66A92F007B8 /* seq_size.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = seq_size.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/seq_size.hpp; sourceTree = SOURCE_ROOT; };
+		A69FB2107A470D595B89EA31 /* binary_oarchive.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = binary_oarchive.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/binary_oarchive.hpp; sourceTree = SOURCE_ROOT; };
+		A6A46DACA1B165F4F4BBE18E /* serializer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = serializer.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/type_traits/serializer.hpp; sourceTree = SOURCE_ROOT; };
+		A7679DEF582429CCB72B2569 /* text_oarchive.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = text_oarchive.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/text_oarchive.hpp; sourceTree = SOURCE_ROOT; };
+		AD5729EED35F0C61F4F795AA /* limit_exceptions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = limit_exceptions.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/limit_exceptions.hpp; sourceTree = SOURCE_ROOT; };
+		AEC63CF655FDB7D662E4C824 /* array.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = array.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/array.hpp; sourceTree = SOURCE_ROOT; };
+		B1154D5BF22C3DECE94F7184 /* list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = list.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/list.hpp; sourceTree = SOURCE_ROOT; };
+		B5848FFBC97C9DB14EB8B877 /* file_streams.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = file_streams.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/file_streams.hpp; sourceTree = SOURCE_ROOT; };
+		B5CD2DD9D3571AEA4C6D11B9 /* tuple_element_name.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple_element_name.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/tuple_element_name.hpp; sourceTree = SOURCE_ROOT; };
+		B6F638E2FE0B3F21BF27407D /* multiset.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = multiset.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/multiset.hpp; sourceTree = SOURCE_ROOT; };
+		B802C69F273E4AA53D9E2DB4 /* container_map.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_map.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_map.hpp; sourceTree = SOURCE_ROOT; };
+		B8D0F7842D5F66FDFEDE58AC /* container_flat_multimap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_flat_multimap.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_flat_multimap.hpp; sourceTree = SOURCE_ROOT; };
+		B952AB2AA9E31324DABC8FCE /* seq_for_each.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = seq_for_each.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/seq_for_each.hpp; sourceTree = SOURCE_ROOT; };
+		BF588EA252FA51B60A44DC40 /* seq_seq.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = seq_seq.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/seq_seq.hpp; sourceTree = SOURCE_ROOT; };
+		BFA91DD5C155D3E3F1DA80EB /* rep_for.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rep_for.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/rep_for.hpp; sourceTree = SOURCE_ROOT; };
+		C0FA7EF5250C362DCF80BCD7 /* compl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = compl.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/compl.hpp; sourceTree = SOURCE_ROOT; };
+		C1596AE92035DA3D007640C8 /* ofxYas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxYas.h; path = ../src/ofxYas.h; sourceTree = "<group>"; };
+		C1D8522273E89BB60923EC96 /* tuple_elem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple_elem.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/tuple_elem.hpp; sourceTree = SOURCE_ROOT; };
+		C233D2D55D6154E3770D8750 /* serialize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = serialize.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/serialize.hpp; sourceTree = SOURCE_ROOT; };
+		C7D9E8CF77FB614057A2CC53 /* container_wstring.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_wstring.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_wstring.hpp; sourceTree = SOURCE_ROOT; };
+		C8C59C8356B5C0060D5C30B6 /* intel.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = intel.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/config/compiler/intel.hpp; sourceTree = SOURCE_ROOT; };
+		CA029C233E6C4C35638C6032 /* container_string.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_string.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_string.hpp; sourceTree = SOURCE_ROOT; };
+		CAFDADDC69A1ECCF98736D37 /* gcc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gcc.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/config/compiler/gcc.hpp; sourceTree = SOURCE_ROOT; };
+		CED49EC17D8DAD4A61288883 /* empty.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = empty.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/empty.hpp; sourceTree = SOURCE_ROOT; };
+		CF2377BF23B286D24D2F38AB /* rapidjson_dtoa.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rapidjson_dtoa.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/rapidjson_dtoa.hpp; sourceTree = SOURCE_ROOT; };
+		CF7E1C6FE35315FC687F66AF /* json_tools.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = json_tools.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/json_tools.hpp; sourceTree = SOURCE_ROOT; };
+		D0797307007D0271091633ED /* usertype.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = usertype.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/utility/usertype.hpp; sourceTree = SOURCE_ROOT; };
+		D35D76966F87E5AB4B10FE45 /* container_deque.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_deque.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_deque.hpp; sourceTree = SOURCE_ROOT; };
+		D509678B98E8E7FE0EB2DEFF /* container_flat_set.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_flat_set.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_flat_set.hpp; sourceTree = SOURCE_ROOT; };
+		D8F53243833A3C252587C74C /* unordered_multiset.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_multiset.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/unordered_multiset.hpp; sourceTree = SOURCE_ROOT; };
+		D8F7908BF4EA1D016DB4FBFC /* fusion_set.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fusion_set.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/fusion_set.hpp; sourceTree = SOURCE_ROOT; };
+		D9B95BEA03E77B60FECE28C4 /* tuple.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/tuple.hpp; sourceTree = SOURCE_ROOT; };
+		DB9A534305881717C6E228AF /* exception_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = exception_base.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/io/exception_base.hpp; sourceTree = SOURCE_ROOT; };
+		DCB1F63133F0B952453072E7 /* unordered_multiset.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_multiset.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/unordered_multiset.hpp; sourceTree = SOURCE_ROOT; };
+		DEC3288384F81F224D1CD082 /* iif.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = iif.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/iif.hpp; sourceTree = SOURCE_ROOT; };
+		DF854D9462528DC0DFD00268 /* tuple.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/tuple.hpp; sourceTree = SOURCE_ROOT; };
+		E133D1B542D3DC3391FC6F59 /* fundamental.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fundamental.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/utility/fundamental.hpp; sourceTree = SOURCE_ROOT; };
+		E2B1D8BD571D64A274D6DDDF /* fusion_vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fusion_vector.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/fusion_vector.hpp; sourceTree = SOURCE_ROOT; };
+		E33AC5BFDC580B12671F6F6A /* error.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = error.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/error.hpp; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E459B6D48E9C783F2219DE9C /* unordered_multimap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_multimap.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/unordered_multimap.hpp; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* example-yasDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-yasDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E57D7FACEB5ACFB8B85590C8 /* vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vector.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/vector.hpp; sourceTree = SOURCE_ROOT; };
+		E5AE6A8AFBE1EDBC3BA57E44 /* string.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = string.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/string.hpp; sourceTree = SOURCE_ROOT; };
+		E69F694F7AB09196C2CEAF40 /* tuple_size.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple_size.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/tuple_size.hpp; sourceTree = SOURCE_ROOT; };
+		E6F89896C81A95A9EB686812 /* container_stable_vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_stable_vector.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/boost/container_stable_vector.hpp; sourceTree = SOURCE_ROOT; };
+		E7E2D03C8A8AD7E29BA8B354 /* base64.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = base64.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/tools/base64.hpp; sourceTree = SOURCE_ROOT; };
+		E820D394B89795E2B742FFB8 /* boost_types.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = boost_types.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/boost_types.hpp; sourceTree = SOURCE_ROOT; };
+		E84736FAB46F6D2481ADC21D /* comma_if.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = comma_if.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/comma_if.hpp; sourceTree = SOURCE_ROOT; };
+		E93929FDE1E343E3A268E4F0 /* forward_list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = forward_list.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/forward_list.hpp; sourceTree = SOURCE_ROOT; };
+		EABE8530B79A9716C1D0B0AB /* complex.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = complex.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/complex.hpp; sourceTree = SOURCE_ROOT; };
+		EBA4C01A1249CB7837F09A4B /* tuple_rem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple_rem.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/tuple_rem.hpp; sourceTree = SOURCE_ROOT; };
+		ECA2D32F917AC4DD00F8FA0D /* config.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = config.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/config.hpp; sourceTree = SOURCE_ROOT; };
+		F63D316F35435480444C7B65 /* tuple_eat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple_eat.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/tuple_eat.hpp; sourceTree = SOURCE_ROOT; };
+		F646739E675516E741E40B98 /* fusion_seq.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fusion_seq.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/concepts/fusion_seq.hpp; sourceTree = SOURCE_ROOT; };
+		F92C2A297ED032C455F7EA97 /* seq_elem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = seq_elem.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/detail/preprocessor/seq_elem.hpp; sourceTree = SOURCE_ROOT; };
+		FE34826CF3065DC32FB549EC /* list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = list.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/concepts/list.hpp; sourceTree = SOURCE_ROOT; };
+		FF80C6F9184EA0F0A0BC8604 /* optional.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = optional.hpp; path = ../../../addons/ofxYas/libs/yas/include/yas/types/std/optional.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA1C8D54798424733BBB5AE /* std */ = {
+			isa = PBXGroup;
+			children = (
+				10F165F2E1AA57EAD3311C19 /* array.hpp */,
+				59B78744422575B045C6F5D1 /* bitset.hpp */,
+				59556C2CCD0B9520102C7DBA /* chrono.hpp */,
+				EABE8530B79A9716C1D0B0AB /* complex.hpp */,
+				4A2C8E971EE5AD299324D51B /* deque.hpp */,
+				E93929FDE1E343E3A268E4F0 /* forward_list.hpp */,
+				B1154D5BF22C3DECE94F7184 /* list.hpp */,
+				32CED628FC7CA6146B00B542 /* map.hpp */,
+				406E57C47670EC4323231D2F /* multimap.hpp */,
+				B6F638E2FE0B3F21BF27407D /* multiset.hpp */,
+				FF80C6F9184EA0F0A0BC8604 /* optional.hpp */,
+				64C82275EB343251E7367520 /* pair.hpp */,
+				752709EB75DA6EA911FC5B87 /* set.hpp */,
+				E5AE6A8AFBE1EDBC3BA57E44 /* string.hpp */,
+				D9B95BEA03E77B60FECE28C4 /* tuple.hpp */,
+				0EFC28B7971A47DE8B200EA0 /* unordered_map.hpp */,
+				E459B6D48E9C783F2219DE9C /* unordered_multimap.hpp */,
+				D8F53243833A3C252587C74C /* unordered_multiset.hpp */,
+				00C9A19601940C362D26391D /* unordered_set.hpp */,
+				E57D7FACEB5ACFB8B85590C8 /* vector.hpp */,
+				087E5412652D6A2C864B7CC3 /* wstring.hpp */,
+			);
+			name = std;
+			sourceTree = "<group>";
+		};
+		150A1F62622E77B46E165CA1 /* concepts */ = {
+			isa = PBXGroup;
+			children = (
+				2767055F43C619BED72BA2DD /* array.hpp */,
+				56ABAFFA345C2D3AF95B7586 /* const_sized_array.hpp */,
+				5A33BB9D2B7AEF7C0E66A978 /* forward_list.hpp */,
+				F646739E675516E741E40B98 /* fusion_seq.hpp */,
+				589648110DBB73CB1173B64B /* keyval.hpp */,
+				FE34826CF3065DC32FB549EC /* list.hpp */,
+				48019BF42BFB1A5AC1A5A538 /* set.hpp */,
+			);
+			name = concepts;
+			sourceTree = "<group>";
+		};
+		4310B0CC553C78E3FDCD0709 /* type_traits */ = {
+			isa = PBXGroup;
+			children = (
+				051440EE5CDE36843677706C /* has_function_serialize.hpp */,
+				A17D8D9F82CF96375B7DE35E /* has_method_serialize.hpp */,
+				A6A46DACA1B165F4F4BBE18E /* serializer.hpp */,
+				00737511EC5E9403ECFB0BD0 /* type_traits.hpp */,
+				9B3C57D6C205F59F5AA6EBA9 /* typeinfo.hpp */,
+			);
+			name = type_traits;
+			sourceTree = "<group>";
+		};
+		43A2FF92CA37FC39D657E8D7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				85C2746F02893B33292FF7F7 /* yas */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		51F8A5993803811DAA279C67 /* compiler */ = {
+			isa = PBXGroup;
+			children = (
+				53FFAA3CD34144413A1C93F2 /* clang.hpp */,
+				CAFDADDC69A1ECCF98736D37 /* gcc.hpp */,
+				C8C59C8356B5C0060D5C30B6 /* intel.hpp */,
+				62F08EDFC113D1EC16561DC4 /* msvc.hpp */,
+			);
+			name = compiler;
+			sourceTree = "<group>";
+		};
+		54517634CBD938969F2BAEC1 /* boost */ = {
+			isa = PBXGroup;
+			children = (
+				AEC63CF655FDB7D662E4C824 /* array.hpp */,
+				451B4FF581858A20E31240A0 /* chrono.hpp */,
+				D35D76966F87E5AB4B10FE45 /* container_deque.hpp */,
+				6B2894B90E5B705BD02C1B10 /* container_flat_map.hpp */,
+				B8D0F7842D5F66FDFEDE58AC /* container_flat_multimap.hpp */,
+				59EEF25CC43E7EFCDDAD5009 /* container_flat_multiset.hpp */,
+				D509678B98E8E7FE0EB2DEFF /* container_flat_set.hpp */,
+				374980CBA23E515F8FBEE880 /* container_list.hpp */,
+				B802C69F273E4AA53D9E2DB4 /* container_map.hpp */,
+				77AD031E2A16184EB50F5219 /* container_multimap.hpp */,
+				340E3DBC5A85F4593B2621A3 /* container_multiset.hpp */,
+				870ACE5C473AD8548739B6C0 /* container_set.hpp */,
+				59AB24D0E014C70864C4E82E /* container_slist.hpp */,
+				E6F89896C81A95A9EB686812 /* container_stable_vector.hpp */,
+				8CA5D1FD925A434FB328C83C /* container_static_vector.hpp */,
+				CA029C233E6C4C35638C6032 /* container_string.hpp */,
+				08BDE76D570ECF7CF3FB262B /* container_vector.hpp */,
+				C7D9E8CF77FB614057A2CC53 /* container_wstring.hpp */,
+				078E081E1530FE416468504E /* fusion_list.hpp */,
+				1CA05C2322CC82CC8B32F123 /* fusion_map.hpp */,
+				2BBF9C83035465BCFF95348F /* fusion_pair.hpp */,
+				D8F7908BF4EA1D016DB4FBFC /* fusion_set.hpp */,
+				3E79B335390A3E770AA897BF /* fusion_tuple.hpp */,
+				E2B1D8BD571D64A274D6DDDF /* fusion_vector.hpp */,
+				A271C8C82F4A5749B8150A1C /* optional.hpp */,
+				DF854D9462528DC0DFD00268 /* tuple.hpp */,
+				03EC438BDCACA094B4F85791 /* unordered_map.hpp */,
+				7B6E65A3ED2F5DF597CBC743 /* unordered_multimap.hpp */,
+				DCB1F63133F0B952453072E7 /* unordered_multiset.hpp */,
+				05C30F5E1784B04370541DCF /* unordered_set.hpp */,
+				6BFED91088D9B7BFB341041D /* variant.hpp */,
+			);
+			name = boost;
+			sourceTree = "<group>";
+		};
+		581774E239FA73613212C66D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F9B860883D1387DA85BD3B43 /* yas */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		7D8DD595C1F43CBC7D79425C /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				49C92FACAC3A146C8627E6AE /* base_object.hpp */,
+				85AB18DABEBE1611D8B3F817 /* hexdumper.hpp */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+		85C2746F02893B33292FF7F7 /* yas */ = {
+			isa = PBXGroup;
+			children = (
+				52869C9CC23BEF91E9370982 /* binary_iarchive.hpp */,
+				A69FB2107A470D595B89EA31 /* binary_oarchive.hpp */,
+				E820D394B89795E2B742FFB8 /* boost_types.hpp */,
+				04AD9682771882A1942AC80E /* buffers.hpp */,
+				4F9332EADD36425807A49041 /* defaul_traits.hpp */,
+				CAC08B3F3358B8E64A7B0DAB /* detail */,
+				B5848FFBC97C9DB14EB8B877 /* file_streams.hpp */,
+				3978ABF275BBC63EC4A174DC /* json_iarchive.hpp */,
+				489CDE93D3A019C6E28DF901 /* json_oarchive.hpp */,
+				935201E2A65B297E86457026 /* mem_streams.hpp */,
+				60F3DC44FF201C684FBEE1F4 /* object.hpp */,
+				C233D2D55D6154E3770D8750 /* serialize.hpp */,
+				0D39BAE7E461FBD8050D3FEC /* std_streams.hpp */,
+				972D49DEEE7ED3ACBC4DAF53 /* std_traits.hpp */,
+				14B07C781647623CC611EFB6 /* std_types.hpp */,
+				91535CB1F11E502C7CFFA63E /* text_iarchive.hpp */,
+				A7679DEF582429CCB72B2569 /* text_oarchive.hpp */,
+				7D8DD595C1F43CBC7D79425C /* tools */,
+				B9029633FEB17A57E5626FB0 /* types */,
+				0C6C84210E1175B61E63022C /* version.hpp */,
+			);
+			name = yas;
+			sourceTree = "<group>";
+		};
+		A6A2D6221CF82CAAF92FDD3A /* preprocessor */ = {
+			isa = PBXGroup;
+			children = (
+				9AF73EE6F82B6E56D2430B2B /* auto_rec.hpp */,
+				63A48ED51BF92E458A011163 /* bitand.hpp */,
+				21152F4B0BF70BC406974BF9 /* bool.hpp */,
+				A402C232F881BE13FC8781F4 /* cat.hpp */,
+				A634B4CF748B981B5DCEF8C4 /* comma.hpp */,
+				E84736FAB46F6D2481ADC21D /* comma_if.hpp */,
+				C0FA7EF5250C362DCF80BCD7 /* compl.hpp */,
+				ECA2D32F917AC4DD00F8FA0D /* config.hpp */,
+				93EF70D81F4191CC1C445E27 /* dec.hpp */,
+				CED49EC17D8DAD4A61288883 /* empty.hpp */,
+				2F6097567983561270955E4B /* enum_params.hpp */,
+				02DD3D1DA76D0A3498AA0D1E /* equal.hpp */,
+				E33AC5BFDC580B12671F6F6A /* error.hpp */,
+				6E2D2763E20BFEDEEB45EA5E /* expr_if.hpp */,
+				18F6D1482B977509A4C19359 /* expr_iif.hpp */,
+				619D58A250B43B2990C8BFE9 /* if.hpp */,
+				DEC3288384F81F224D1CD082 /* iif.hpp */,
+				63F2BB051213A0C5D20EC47A /* inc.hpp */,
+				26FA6A5390D0516D4FBEBC22 /* not_equal.hpp */,
+				6609AF4FF7D175F127C55DE7 /* overload.hpp */,
+				8969ABF0C015ACCCBBC7FCA9 /* preprocessor.hpp */,
+				BFA91DD5C155D3E3F1DA80EB /* rep_for.hpp */,
+				463F98879F6C6BB77CA1698A /* rep_for_impl.hpp */,
+				6B6A01D6DCED8735230E45EE /* rep_for_impl_dmc.hpp */,
+				096A6430B3FC0ABF562301DD /* rep_for_impl_edg.hpp */,
+				05EEEC91A60527562253DC95 /* rep_for_impl_msvc.hpp */,
+				1C056FB1731931AFB7059DC9 /* repeat.hpp */,
+				F92C2A297ED032C455F7EA97 /* seq_elem.hpp */,
+				B952AB2AA9E31324DABC8FCE /* seq_for_each.hpp */,
+				0C3D63C881D8D5DB2A503BF0 /* seq_for_each_i.hpp */,
+				BF588EA252FA51B60A44DC40 /* seq_seq.hpp */,
+				A68C313BFA51E66A92F007B8 /* seq_size.hpp */,
+				37ADEB8774787E0392FEB4DD /* stringize.hpp */,
+				F63D316F35435480444C7B65 /* tuple_eat.hpp */,
+				C1D8522273E89BB60923EC96 /* tuple_elem.hpp */,
+				EBA4C01A1249CB7837F09A4B /* tuple_rem.hpp */,
+				E69F694F7AB09196C2CEAF40 /* tuple_size.hpp */,
+				7A0AB32175E56F1509698046 /* tuple_to_seq.hpp */,
+				66B64F40F72AAC49841B10B9 /* variadic_elem.hpp */,
+				2E132A9CFA83AB0951621328 /* variadic_size.hpp */,
+			);
+			name = preprocessor;
+			sourceTree = "<group>";
+		};
+		B9029633FEB17A57E5626FB0 /* types */ = {
+			isa = PBXGroup;
+			children = (
+				54517634CBD938969F2BAEC1 /* boost */,
+				150A1F62622E77B46E165CA1 /* concepts */,
+				0DA1C8D54798424733BBB5AE /* std */,
+				E66FDBCEA3EE98D1950E2DD3 /* utility */,
+			);
+			name = types;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				F728CA208D597E84A27C04E1 /* ofxYas */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		C1596AE82035DA2A007640C8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C1596AE92035DA3D007640C8 /* ofxYas.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		CAC08B3F3358B8E64A7B0DAB /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				E57F28F2168D5C88C7DB9F3B /* config */,
+				F2B9F66149E5E70AD710061B /* io */,
+				A6A2D6221CF82CAAF92FDD3A /* preprocessor */,
+				DE0ED5B8645E43856AC2D2D9 /* tools */,
+				4310B0CC553C78E3FDCD0709 /* type_traits */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		DE0ED5B8645E43856AC2D2D9 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				E7E2D03C8A8AD7E29BA8B354 /* base64.hpp */,
+				978A9C2566DEB483CEE5D33C /* cast.hpp */,
+				6CD48737CF6837BE0DF71C2F /* fnv1a.hpp */,
+				CF7E1C6FE35315FC687F66AF /* json_tools.hpp */,
+				09B6D18D7EE0FA4F9E71C10D /* limit.hpp */,
+				AD5729EED35F0C61F4F795AA /* limit_exceptions.hpp */,
+				463408E2BE59F7F3DEB7EA0A /* noncopyable.hpp */,
+				CF2377BF23B286D24D2F38AB /* rapidjson_dtoa.hpp */,
+				0FAC50B8FBDEC4679ED73822 /* save_load_string.hpp */,
+				B5CD2DD9D3571AEA4C6D11B9 /* tuple_element_name.hpp */,
+				A6653BB77407F5E920DA5FA9 /* tuple_element_switch.hpp */,
+				75BA44027E8BCA04733473A8 /* utf8conv.hpp */,
+				4908C0E480D1DB33A463577E /* variant_element_switch.hpp */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* example-yasDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		E57F28F2168D5C88C7DB9F3B /* config */ = {
+			isa = PBXGroup;
+			children = (
+				51F8A5993803811DAA279C67 /* compiler */,
+				74228A76DD84F284A37AB14A /* config.hpp */,
+				7E0067BE81A12B7A4304ED4F /* endian.hpp */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		E66FDBCEA3EE98D1950E2DD3 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				0471BA3DC5DBAAE1704DEF2A /* autoarray.hpp */,
+				5487CFD9E57BBCCAEB3B6E23 /* buffer.hpp */,
+				998CA6C9FA36F7EB3BE0394E /* enum.hpp */,
+				E133D1B542D3DC3391FC6F59 /* fundamental.hpp */,
+				66ECDB93C67AE3D9CED091CC /* object.hpp */,
+				D0797307007D0271091633ED /* usertype.hpp */,
+				6C9742DBA54D59D3A8272879 /* value.hpp */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		F2B9F66149E5E70AD710061B /* io */ = {
+			isa = PBXGroup;
+			children = (
+				8E5D083EAC6714B97D286CE7 /* binary_streams.hpp */,
+				0247F1A0F59E9AB2427D2719 /* endian_conv.hpp */,
+				DB9A534305881717C6E228AF /* exception_base.hpp */,
+				14629C08450ED6A74BE9F961 /* header.hpp */,
+				7E27022B4C9264BA1C2990DB /* io_exceptions.hpp */,
+				9362DD7F8E785ACF1036EDFE /* json_streams.hpp */,
+				0C9312282184317925C2E776 /* serialization_exception.hpp */,
+				7DEDD91C74FC307407F1845D /* text_streams.hpp */,
+			);
+			name = io;
+			sourceTree = "<group>";
+		};
+		F728CA208D597E84A27C04E1 /* ofxYas */ = {
+			isa = PBXGroup;
+			children = (
+				C1596AE82035DA2A007640C8 /* src */,
+				581774E239FA73613212C66D /* libs */,
+			);
+			name = ofxYas;
+			sourceTree = "<group>";
+		};
+		F9B860883D1387DA85BD3B43 /* yas */ = {
+			isa = PBXGroup;
+			children = (
+				43A2FF92CA37FC39D657E8D7 /* include */,
+			);
+			name = yas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* example-yas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example-yas" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = "example-yas";
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* example-yasDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example-yas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* example-yas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxYas/src/,
+					../../../addons/ofxYas/libs/yas/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxYas/src/,
+					../../../addons/ofxYas/libs/yas/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxYas/src/,
+					../../../addons/ofxYas/libs/yas/include,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxYas/src/,
+					../../../addons/ofxYas/libs/yas/include,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example-yas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example-yas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
